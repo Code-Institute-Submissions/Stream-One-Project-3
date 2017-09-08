@@ -1,0 +1,18 @@
+angular.module('TinuaFashionApp')
+       .controller('imageCtrl',funcion($scope){
+	         $scope.imageDetails = [
+			    {title: "Bomber Jecket",
+				  Price: "£100",
+				  image: "image/girl_dress1.jpg"},
+				  
+				{title: "Bomber Jecket",
+				  Price: "£200",
+				  image: "image/girl_dress2.jpg"},
+				  
+                 {title: "Bomber Jecket",
+				  Price: "£40",
+				  image: "image/girl_dress3.jpg"}
+               				  
+			 ]
+	   });
+         

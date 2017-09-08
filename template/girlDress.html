@@ -1,0 +1,27 @@
+
+        <section class="container"  id="jecket" >
+				     <div class="row" >
+					     <div class="col-sm-3" >
+						    	 
+						 </div><!--end of list-->
+						 
+					     <div class="col-sm-9"  ng-controller="imageCtrl">
+                              <h2>Girl Dress Collections</h2>						 
+  					          <div class="row">
+							     
+				                 
+								 <ul>
+								 <li ng-repeat= "imageDetail in imageDetails">
+					                 <img ng-src="{{imageDetail.image}}" alt="women jecket" />
+					                 <h5>"{{imageDetail.title}}"</h5>
+						             <h4>"{{imageDetail.price}}"</h4>
+									 </li>
+									 </ul>
+					            
+								 
+						   </div><!--end of row-->
+					  </div><!--end of jecket photo-->
+					 	
+					 </div><!--end of row-->
+       </section> <!-- end of spring hero--> 
+   

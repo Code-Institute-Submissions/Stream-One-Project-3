@@ -1,0 +1,141 @@
+`<!DOCTYPE html>
+<html lang="en" data-ng-app="TinuaFashionApp">
+    <head>
+	<title> Stream1 Project</title>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link  href="css/style.css" rel="stylesheet" >
+	<link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
+
+	</head>
+	
+	 <body >
+	         <div class="container-fluid" id="main">
+			     <nav class="navbar navbar-fixed-top" role="navigation" id="main_nav">
+				     <div class="container "  >
+					     <div class="navbar-header" data-ng-controller="ShowTitle" >
+					     <a class="navbar-brand" href="/">
+						     <b> {{title}} </b>
+						 </a>
+						 </div>
+						 <div class="collapse navbar-collapse navbar-responsive-collapse " >
+						     <ul class="nav navbar-nav">
+							     <li class="active"><a ui-sref="shop">Shop by Department <span class="sr-only">(current)</span></a></li>
+                                 <li><a ui-sref="brand">Shop by Brand</a></li>
+							 </ul><!-- end of nav ul--> 
+							 <form class="navbar-form pull-left">
+							      <input class="form-control" type="text" placeholder="Enter Product or Brand..." id="search_input">
+								  <button class="btn btn-primary" type="submit">
+								      <span class="glyphicon glyphicon-search"></span>
+								  </button>
+							 </form><!-- end of form--> 
+							 <ul class="nav navbar-nav pull-right">
+							     <li>
+								     <a ui-sref="signinForm"><span class="glyphicon glyphicon-user"></span>Sign in or Register</a>
+								 </li>
+								 <li>
+								     <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Basket</a>
+								 </li>
+							 </ul><!-- end of nav collapse--> 
+						 </div><!-- end of nav collapse--> 
+					 </div> <!-- end of nav container--> 
+				 </nav><!-- end of navbar--> 
+				 
+				 
+				 
+				 
+			 </div>	 <!-- end of main container--> 
+			 
+			 <div class="container" style="margin-top:50px;" >
+		
+
+		    <div ui-view>
+		  	</div>
+		</div>
+		<footer class="container-fluid" id="end">
+		     <div class="container">
+		      <div class="row" >
+			      <div class="col-sm-3">
+				      <a ui-sref="#" > <h3> Customer Support</h3></a>
+					  <hr>
+					     <ul>
+					         <a ui-sref="#" ><li>How to order</li></a>
+							 <a ui-sref="#" > <li>Payment Methods</li></a>
+							 <a ui-sref="#" ><li>Delivery & Collection</li></a>
+							 <a ui-sref="#" ><li>Returns & Refunds</li></a>
+							 <a ui-sref="#" ><li>Contact Us</li></a>
+					     </ul>
+				  </div>
+				  <div class="col-sm-3">
+				      <a ui-sref="#" > <h3> Way to Shop</h3></a>
+					     <hr>
+					     <ul>
+					         <a ui-sref="#" ><li>Find the Store</li></a>
+							 <a ui-sref="#" > <li>Site Map</li></a>
+							 <a ui-sref="#" ><li>Gifts Cards & Vouchers</li></a>
+							 <a ui-sref="#" ><li>Buying Guides</li></a>
+					     </ul>
+				  </div>
+				  <div class="col-sm-3">
+				      <a ui-sref="#" > <h3> About Us</h3></a>
+					      <hr>
+					     <ul>
+					         <a ui-sref="#" ><li>Company Information</li></a>
+							 <a ui-sref="#" ><li>Careers</li></a>
+							 <a ui-sref="#" ><li>Advertise with Us</li></a>
+							 <a ui-sref="#" ><li>Join our Customer Panel</li></a>
+					     </ul>
+				  </div>
+				  <div class="col-sm-3">
+				      <a ui-sref="#" > <h3> Company Policy</h3></a>
+					      <hr>
+					     <ul>
+					         <a ui-sref="#" ><li>Privacy Policy</li></a>
+							 <a ui-sref="#" ><li>Cookie Policy</li></a>
+							 
+					     </ul>
+				  </div>
+			  </div>
+			  <div class="row">
+			      <div class="col-sm-2 col-sm-offset-3">
+				     <a ui-sref="#" class="btn btn-primary"><i class="fa fa-facebook fa-lg"></i></a>
+				  </div>
+				  <div class="col-sm-2">
+				     <a ui-sref="#" class="btn btn-info"><i class="fa fa-twitter fa-lg"></i></a>
+				  </div>
+				  <div class="col-sm-2 ">
+				     <a ui-sref="#" class="btn btn-danger"><i class="fa fa-youtube fa-lg"></i></a>
+				  </div>
+				  
+			  </div>
+			  </div>
+		</footer>
+                   
+          
+                   
+		
+               
+	    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script> 
+	    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>  
+	    <script src="bower_components/angular/angular.min.js" type="text/javascript"></script>  
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript"></script>  
+           <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js" type="text/javascript"></script>  
+   
+        <script src="main.js"  type="text/javascript"></script>	
+		<script src="controllers/signIn.js"  type="text/javascript"></script>	
+	    <script src="controllers/signUp.js"  type="text/javascript"></script>	
+	    <script src="controllers/title.js"  type="text/javascript"></script>	
+		<script src="service/factory.js"  type="text/javascript"></script>	
+		<script src="controllers/home.js"  type="text/javascript"></script>	
+		<script src="js/product.json"  type="text/javascript"></script>
+		<script src="controllers/productDirective.js"  type="text/javascript"></script>	
+		<script src="controllers/imageCtrl.js"  type="text/javascript"></script>	
+		<script src="controllers/womenJacketCtrl.js"  type="text/javascript"></script>	
+		<script src="controllers/womenDressCtrl.js"  type="text/javascript"></script>	
+		<script src="controllers/shoesCtrl.js"  type="text/javascript"></script>	
+		<script src="controllers/babyDressCtrl.js"  type="text/javascript"></script>	
+	
+		 			    
+	 </body>
+</html>

@@ -1,0 +1,99 @@
+
+
+
+<section ng-controller="HomeCtrl">
+    
+
+<div class="container" id="slide">
+    <div class="row">
+	  <div class="col-sm-12" >
+  <div >
+    <div uib-carousel active="active" interval="myInterval">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+        <img ng-src="{{slide.image}}" id="slide">
+        <div class="carousel-caption">
+          <h3 class="slideText">Slide {{slide.text}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+     </div>
+  </div>
+</div>
+         <div class="container" id="salePage">
+		      <div class="row">
+			     <div class="col-sm-12">
+               	<div class="salePageText">
+				     <h1 >  Sale is On </h1>
+					 <h1 >Upto 50% is Off in this Season Sale</h1>
+					 <a ui-sref="womenDress">Shope Women</a>
+					 <a ui-sref="#">Shope Men</a>
+					 <a ui-sref="babyDress">Shope Kids</a>
+					 <a ui-sref="#">Shope Home</a>
+					 <a ui-sref="#">Shope Baggs & Luggage</a>
+				 </div>
+				 </div>
+			  </div>
+		      
+		  </div>	
+           
+		   <div class="container">
+		     <div class="row" id="stylePage">
+			     <h1>New Season Style<h1>
+			     <div class="col-sm-4">
+				     <div class="styleImg1 img-responsive img-thumbnail">
+					 <h3>Highlight in Home </h3>
+					 <a>Shop Top Home Sale</a>
+					 </div>
+				 </div>
+				 <div class="col-sm-4">
+				   <div class="styleImg2 img-responsive img-thumbnail">
+					 <h3>Wardrobe Winners </h3>
+					 <a ui-sref="womenJecket">Shop Man's Sale</a>
+					 </div>
+				     </div>
+				 <div class="col-sm-4">
+				     <div class="styleImg3 img-responsive img-thumbnail">
+					 <h3>Best Fashoin For Women </h3>
+					 <a ui-sref="womenDress">Shop Women's Dress Sale</a>
+					 </div>
+					 </div>
+				
+			 </div>
+		  </div>
+		  
+		  <div class="container">
+		     <div class="row" id="springPage">
+			     <h1>Spring Heroes<h1>
+			     <div class="col-sm-6">
+				     <div class="springImg1 img-responsive img-thumbnail">
+					 <h3>The Lovely Dress </h3>
+					 <a ui-sref="womenDress">Shop the white shirt</a>
+					 </div>
+				 </div>
+				 <div class="col-sm-6">
+				   <div class="springImg2 img-responsive img-thumbnail">
+					 <h3>The Bomber Jecket </h3>
+					 <a ui-sref="womenJecket">Shop the bomber jacket </a>
+					 </div>
+				     </div>
+          		</div> 
+			 </div>	
+			 
+	   <div class="container" id="getEmail" data-ng-controller="emilCtrl">
+		      <div class="row">
+			      <div class="col-sm-12">
+				      <h3>Get Exclusive news and offers</h3>
+					   <form class="form-group center">
+							      <input data-ng model="email" class="form-control" type="email" placeholder="Enter Your Email Address" id="email_input">
+								  <button class="btn btn-primary " id="sign_in" type="submit" ng-click="submit()">
+								       Sign Up
+								  </button>
+					   </form>
+				  </div>
+			  </div>
+		      
+		  </div>
+		 
+   		     
+ </section>

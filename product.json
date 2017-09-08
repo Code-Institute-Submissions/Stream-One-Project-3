@@ -1,0 +1,27 @@
+[
+   {
+      "brandName": "Dorothy Perkins",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+	  
+   },
+   {
+      "brandName": "Phase Eight",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+   },
+   {
+      "brandName": "Ted Baker",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+   },
+   {
+      "brandName": "Wallis",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+   },
+   {
+      "brandName": "Mint Velvet",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+   },
+   {
+      "brandName": "Hobbs",
+      "fabric": ["Wool","Cotton","Leather","Manmade"]
+   }
+]
