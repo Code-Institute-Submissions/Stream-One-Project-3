@@ -1,8 +1,10 @@
 <div >
-
-<ul style="list-style: none; ">
-	<li style="padding:10px 0px;" ng-repeat="product in productlist"><span> <input type="radio" /></span>
-		{{item}}
-	 </li>
+<label>Search: <input ng-model="serchText" placeholder="product"></label>
+<ul style="list-style: none;" ng-repeat="product in productlist | filter:serchText">
+	 <li>{{product.id}} </li>
+     <li>  {{product.category}}</li>
+     <li>  {{product.Brand}} </li>
+     <li> {{product.size}}</li>
+     <li> {{product.price}}</li>
  </ul>
  </div>
