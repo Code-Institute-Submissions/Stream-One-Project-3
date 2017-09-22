@@ -1,7 +1,12 @@
-<h1>Tinua Fashion Web App</h1>
-=============
-<h3>Overview</h3>
-===============
+# Tinua Fashion Web App
+## Introduction
+## Notes
+## Data
+## structure
+## Main Steps to create
+## Content
+## Technology Stack
+## Instruction
 <p>This is a Fashion web app. The Internet has changed the way we thought about fashion.
 By using this web app customer can buy cloths, handbags, accessories, and shoes from anywhere
 and everywhere.<br>
