@@ -21,32 +21,20 @@ This web app is basically consist of five parts:<br>
 
   
 ## Main Steps to create
+1. __main.js:__ <br>
+To bind controllers to HTML Angular [UI-Router](https://ui-router.github.io/ng1/) is used in here. It is a client-side [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) routing framework for [AngularJS](https://angularjs.org/).Routing frameworks for SPAs update the browser's URL as the user navigates through the app. Conversely, this allows changes to the browser's URL to drive navigation through the app, thus allowing the user to create a bookmark to a location deep within the SPA.
+By using UI-Router all connection is pass in __$stateProvider__ and __$urlRouterProvider__ . $stateProvider is a module that is contained within the __ui-sref__ . <br>
+2. __controllers:__ <br>
+A [Controller](https://docs.angularjs.org/guide/controller) is attached to the DOM via the [ng-controller](https://docs.angularjs.org/api/ng/directive/ngController) directive, AngularJS will instantiate a new Controller object, using the specified Controller's constructor function. A new child scope will be created and made available as an injectable parameter to the Controller's constructor function as ```$scope``` .
+Here all controllers are developed for the app like womenDressCtrl.js, womenJecketCtrl.js, BabyDressCtrl.js, shoesCtrl.js, ect.
+<br>
+[Directives](https://docs.angularjs.org/guide/directive) is used in this app for repeating code. AngularJS comes with a set of these directives built-in, like ngBind, ngModel, and ngClass. When AngularJS bootstraps in application, the HTML compiler traverses the DOM matching directives against the DOM elements. In here ng-repeat is used for productDirectives.js. 
+
+
+
+
 ## Content
 ## Technology Stack
-## Instruction
-<p>This is a Fashion web app. The Internet has changed the way we thought about fashion.
-By using this web app customer can buy cloths, handbags, accessories, and shoes from anywhere
-and everywhere.<br>
-Because of this Fashion web app, shopping for stuff is more fun than its ever been before.
-People can buy whatever they want, wherever they want because everything is online now. 
-If anyone shopping for some unique, expensive, or stylish items, this is the best fashion web apps.
-This web app will allow users to register and login. When a user register 
-in this app,then they can easily buy product from here.<br>
-AngularJS framework is used for this web app and its styled with Bootstrap.
-</p>
-
-<h3> Features </h3>
-=================
-<h4>Features to Implement</h4>
-	   <p>*Customer can create a new account</p>
-	   <p>*They can easily SignIn</p>
-	   <p>*Easy to SignOut</p>
-	   <p>*Customer can see the Product list</p>
-	   <p>*Customer choose their Brand and Size </p>
-	  
-	
-<h3>Tech Used</h3>
-================
 <h4>There are some tech used includes: </h4>
 <ul>
   <b>AngularJS</b>
@@ -67,9 +55,7 @@ AngularJS framework is used for this web app and its styled with Bootstrap.
   <li>I used npm to help manage some of  the dependencies in my application.</li>
 </ul>
 
-
-<h3>Contributing</h3>
-==================
+## Instruction
 <h4>Getting the code up and running:</h4>
 <p>
 1)Firstly user will need to clone this repository by running the
@@ -80,5 +66,5 @@ AngularJS framework is used for this web app and its styled with Bootstrap.
  4)when dependencies have been installed they will need to install <b>http-server</b> <br>
  5)Once <b>http-server</b> is installed then run http-server <br>
  6)The app will now run on <b>localhost</b><br>
- 
- 
+
+
