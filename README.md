@@ -1,8 +1,23 @@
 # Tinua Fashion Web App
 ## Introduction
-## Notes
-## Data
-## structure
+This is a Fashion web app. The Internet has changed the way we thought about fashion.
+By using this web app customer can buy cloths, handbags, accessories, and shoes from anywhere.
+Because of this Fashion web app, shopping for stuff is more fun than its ever been before.
+People can buy whatever they want, wherever they want because everything is online now. 
+If anyone shopping for some unique, expensive, or stylish items, this is the best fashion web apps.
+This web app will allow users to **register** and **login**. When a user register 
+in this app,then they can easily buy product from here.<br>
+**AngularJS** framework is used for this web app and its styled by **Bootstrap**.
+
+## Structure
+This web app is basically consist of five parts:<br>
+* __bower_coponents:__ where all the dependencies files those are needed for the app.
+* __controllers:__ is responsible for instantiating controllers for the app. 
+* __templates:__ where all the html file are showed.
+* __index.html:__ is the default HTML file that appears in a browser when a user invokes for the Web app application.
+* __main.js:__  where routes and data connection are managed.
+  Project Tree:
+  
 ## Main Steps to create
 ## Content
 ## Technology Stack
