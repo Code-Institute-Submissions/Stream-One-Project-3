@@ -15,8 +15,10 @@ This web app is basically consist of five parts:<br>
 * __controllers:__ is responsible for instantiating controllers for the app. 
 * __templates:__ where all the html file are showed.
 * __index.html:__ is the default HTML file that appears in a browser when a user invokes for the Web app application.
-* __main.js:__  where routes and data connection are managed.
-  Project Tree:
+* __main.js:__  where routes and data connection are managed. <br>
+  Project Tree: <br>
+  ![pic1](https://user-images.githubusercontent.com/24476948/30787078-1f9d11b0-a179-11e7-98d4-1b9c3324061d.png)
+
   
 ## Main Steps to create
 ## Content
