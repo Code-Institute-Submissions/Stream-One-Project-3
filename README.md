@@ -44,6 +44,12 @@ __user registration__ and the other one for a detaile of all __products__.
    __SignIn Instruction__
   Anyone can see the SignIn or Register option at the top of the home page.<br>
   ![pic2](https://user-images.githubusercontent.com/24476948/30801768-3c583a06-a1dc-11e7-8d67-16e66ce891fb.png)
+  To SignIn or Register go to this page:<br>
+  ![pic3](https://user-images.githubusercontent.com/24476948/30802358-26eae554-a1de-11e7-9a13-c0c0b5b9b79d.png)
+  <br>
+  Then SignIn Here:
+  
+
 
   
    
