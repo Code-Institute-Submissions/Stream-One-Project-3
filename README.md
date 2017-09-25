@@ -50,10 +50,6 @@ __user registration__ and the other one for a detaile of all __products__.
   Then SignIn Here:<br>
   ![pic4](https://user-images.githubusercontent.com/24476948/30802733-60612108-a1df-11e7-8cb0-677fc0aaca40.png)
 
-  
-
-
-  
    
 ## Technology Stack
 <h4>There are some tech used includes: </h4>
