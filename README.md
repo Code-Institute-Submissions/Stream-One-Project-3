@@ -21,14 +21,19 @@ This web app is basically consist of five parts:<br>
 
   
 ## Main Steps to create
-1. __main.js:__ <br>
+1. __main.js:__ 
 To bind controllers to HTML Angular [UI-Router](https://ui-router.github.io/ng1/) is used in here. It is a client-side [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) routing framework for [AngularJS](https://angularjs.org/).Routing frameworks for SPAs update the browser's URL as the user navigates through the app. Conversely, this allows changes to the browser's URL to drive navigation through the app, thus allowing the user to create a bookmark to a location deep within the SPA.
-By using UI-Router all connection is pass in __$stateProvider__ and __$urlRouterProvider__ . $stateProvider is a module that is contained within the __ui-sref__ . <br>
-2. __controllers:__ <br>
+By using UI-Router all connection is pass in __$stateProvider__ and __$urlRouterProvider__ . $stateProvider is a module that is contained within the __ui-sref__ .
+2. __controllers:__ 
 * A [Controller](https://docs.angularjs.org/guide/controller) is attached to the DOM via the [ng-controller](https://docs.angularjs.org/api/ng/directive/ngController) directive, AngularJS will instantiate a new Controller object, using the specified Controller's constructor function. A new child scope will be created and made available as an injectable parameter to the Controller's constructor function as ```$scope``` .
 Here all controllers are developed for the app like womenDressCtrl.js, womenJecketCtrl.js, BabyDressCtrl.js, shoesCtrl.js, ect.
-<br>
 * [Directive](https://docs.angularjs.org/guide/directive) is used in this app for repeating code. AngularJS comes with a set of these directives built-in, like ngBind, ngModel, and ngClass. When AngularJS bootstraps in application, the HTML compiler traverses the DOM matching directives against the DOM elements. In here ng-repeat is used for productDirective.js. 
+3. __style.css:__
+All custom styles are done in this file.
+4. __html templates:__
+All html files are developed in this folder to show the app like home.html,shop.html,signIn.html.
+5. __product.json:__
+To store the product brand name this json file is used.
 
 
 
