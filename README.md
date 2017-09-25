@@ -5,9 +5,9 @@ By using this web app customer can buy cloths, handbags, accessories, and shoes 
 Because of this Fashion web app, shopping for stuff is more fun than its ever been before.
 People can buy whatever they want, wherever they want because everything is online now. 
 If anyone shopping for some unique, expensive, or stylish items, this is the best fashion web apps.
-This web app will allow users to **register** and **login**. When a user register 
+This web app will allow users to __register__ and __login__. When a user register 
 in this app,then they can easily buy product from here.<br>
-**AngularJS** framework is used for this web app and its styled by **Bootstrap**.
+[AngularJS](https://angularjs.org/)framework is used for this web app and its styled by [Bootstrap](http://getbootstrap.com/).
 
 ## Structure
 This web app is basically consist of five parts:<br>
@@ -35,10 +35,16 @@ All html files are developed in this folder to show the app like home.html,shop.
 5. __product.json:__
 To store the product brand name this json file is used.
 
-
-
-
 ## Content
+This app consists of two parts separated into different pages, one for 
+__user registration__ and the other one for a detaile of all __products__.
+## Part 1 -User Registration:
+   * __SignIn or Register:__
+   All the user are need to singin or register to buy the products from the app.
+   __SignIn Instruction__
+  Anyone can see the SignIn or Register option at the top of the home page.
+  
+   
 ## Technology Stack
 <h4>There are some tech used includes: </h4>
 <ul>
