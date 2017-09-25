@@ -40,9 +40,11 @@ This app consists of two parts separated into different pages, one for
 __user registration__ and the other one for a detaile of all __products__.
 ## Part 1 -User Registration:
    * __SignIn or Register:__
-   All the user are need to singin or register to buy the products from the app.
+   All the user are need to singin or register to buy the products from the app.<br>
    __SignIn Instruction__
-  Anyone can see the SignIn or Register option at the top of the home page.
+  Anyone can see the SignIn or Register option at the top of the home page.<br>
+  ![pic2](https://user-images.githubusercontent.com/24476948/30801768-3c583a06-a1dc-11e7-8d67-16e66ce891fb.png)
+
   
    
 ## Technology Stack
