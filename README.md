@@ -48,7 +48,7 @@ __user registration__ and the other one for a detaile of all __products__.
   ![pic3](https://user-images.githubusercontent.com/24476948/30802358-26eae554-a1de-11e7-9a13-c0c0b5b9b79d.png)
   <br>
   Then SignIn Here:<br>
-  ![pic4](https://user-images.githubusercontent.com/24476948/30802733-60612108-a1df-11e7-8cb0-677fc0aaca40.png)
+ 
 
    
 ## Technology Stack
