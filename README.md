@@ -43,7 +43,8 @@ __user registration__ and the other one for a detaile of all __products__.
    All the user are need to singin or register to buy the products from the app.<br>
    __SignIn Instruction__
   Anyone can see the SignIn or Register option at the top of the home page.<br>
-  ![pic2](https://user-images.githubusercontent.com/24476948/30801768-3c583a06-a1dc-11e7-8d67-16e66ce891fb.png)
+ ![pic9](https://user-images.githubusercontent.com/24476948/30888947-4234b2d4-a31b-11e7-8326-d16ec04942df.png)
+
   To SignIn or Register go to this page:<br>
   ![pic3](https://user-images.githubusercontent.com/24476948/30802358-26eae554-a1de-11e7-9a13-c0c0b5b9b79d.png)
   <br>
