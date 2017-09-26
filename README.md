@@ -50,6 +50,10 @@ __user registration__ and the other one for a detaile of all __products__.
   <br>
   Then SignIn Here:<br>
   ![pic4](https://user-images.githubusercontent.com/24476948/30889079-f11d536e-a31b-11e7-820a-30c2152b9a00.png)
+  <br>
+  To Create a new account use this form:<br>
+  ![pic10](https://user-images.githubusercontent.com/24476948/30889187-847ebada-a31c-11e7-8b6c-49c9b5f8006e.png)
+
 
  
 
