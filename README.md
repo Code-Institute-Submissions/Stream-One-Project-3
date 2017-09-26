@@ -53,8 +53,10 @@ __user registration__ and the other one for a detaile of all __products__.
   <br>
   To Create a new account use this form:<br>
   ![pic10](https://user-images.githubusercontent.com/24476948/30889187-847ebada-a31c-11e7-8b6c-49c9b5f8006e.png)
-
-
+## Part 2 - Products:
+   * __Shop By Department:__
+   
+   *__Shop By Brand:__
  
 
    
