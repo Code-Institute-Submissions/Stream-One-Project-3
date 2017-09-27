@@ -56,11 +56,8 @@ __user registration__ and the other one for a detaile of all __products__.
 ## Part 2 - Products:
    * __Shop By Department:__<br>
    ![pic11](https://user-images.githubusercontent.com/24476948/30889706-3e463d32-a320-11e7-8214-7d4373abc8ff.png)
-   <br>
-   * __Shop By Brand:__ <br>
+   * __Shop By Brand:__<br>
    ![pic6](https://user-images.githubusercontent.com/24476948/30890062-638440d8-a322-11e7-8d8e-aa8d5cbb2810.png)
-
-   <br>
    Then All the Products are shows in different pageas on their brand and category search :<br> 
     ![pic8](https://user-images.githubusercontent.com/24476948/30889965-c212edd0-a321-11e7-91cf-f1a8887da093.png)
 
